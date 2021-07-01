@@ -1,0 +1,50 @@
+header ul li i {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 25px;
+  font-family: "Courgette", cursive;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.logo .left {
+  color: #f00;
+}
+
+.logo .right {
+  color: #fff;
+}
+
+header ul li a {
+  text-shadow: 1px 1px 1px #000;
+  font-weight: 500;
+}
+
+body {
+  background: #d2d2d2;
+}
+
+.title_page{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;    
+}
+
+.form-register{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 50px;
+}
+
+.report-data{
+  width: 95%;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}

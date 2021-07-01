@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Track</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/bootstrap-icons.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/list.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="px-3 py-2 bg-dark text-white">
+        <div class="container">
+          <div
+            class="
+              d-flex
+              flex-wrap
+              align-items-center
+              justify-content-center justify-content-lg-start
+            "
+          >
+            <a
+              href="/"
+              class="
+                logo
+                d-flex
+                align-items-center
+                my-2 my-lg-0
+                me-lg-auto
+                text-decoration-none
+              "
+            >
+              <span class="left">Health</span><span class="right">Track</span>
+            </a>
+
+            <ul
+              class="
+                nav
+                col-12 col-lg-auto
+                my-2
+                justify-content-center
+                my-md-0
+                text-small
+              "
+            >
+              <li>
+                <a href="index.html" class="nav-link text-white">
+                  <i class="bi bi-house-door"></i>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="list.html" class="nav-link text-white">
+                  <i class="bi bi-table"></i>
+                  Listagem
+                </a>
+              </li>
+              <li>
+                <a href="add.html" class="nav-link text-white">
+                  <i class="bi bi-clipboard-plus"></i>
+                  Adicionar peso
+                </a>
+              </li>
+              <li>
+                <a href="report.html" class="nav-link text-white">
+                  <i class="bi bi-clipboard-data"></i>
+                  Relatório
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+     
+      <form action="list.html" class="form-register">
+        <h1 class="title_page">Editar Peso</h1>
+        <div class="form-floating my-3">
+          <input type="date" value="2021-06-28" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+          <label for="floatingInput">Data</label>
+        </div>
+        <div class="form-floating my-3">
+          <input type="number" value="85" class="form-control" id="floatingInput2" placeholder="Password"  required>
+          <label for="floatingInput2">Peso (KG)</label>
+        </div>    
+        
+        <button class="w-100 btn btn-lg btn-danger" type="submit">Editar</button>        
+      </form>
+
+    </main>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
